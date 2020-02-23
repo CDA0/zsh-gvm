@@ -9,7 +9,7 @@ _zsh_gvm_install() {
 
 _zsh_gvm_load() {
     # export PATH
-    export GVM_ROOT="$HOME/.goenv"
+    export GVM_ROOT="$HOME/.gvm"
     export PATH="$GVM_ROOT/bin:$PATH"
     source $GVM_ROOT/scripts/gvm-default
 }
