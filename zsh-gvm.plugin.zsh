@@ -15,7 +15,7 @@ _zsh_gvm_load() {
 }
 
 # install goenv if it isnt already installed
-[[ ! -f "$GVM_ROOT/scripts/gvm-default" ]] && _zsh_gmv_install
+[[ ! -f "$GVM_ROOT/scripts/gvm-default" ]] && _zsh_gvm_install
 
 # load goenv if it is installed
 if [[ -f "$GVM_ROOT/scripts/gvm-default" ]]; then
